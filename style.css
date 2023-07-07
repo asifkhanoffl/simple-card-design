@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.box {
+    position: relative;
+    height: 400px;
+    width: 550px;
+    background-image: url(/img/flowers-19830.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.35);
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+span {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    display: block;
+    text-align: center;
+    right: 0;
+    line-height: 30px;
+}
+
+span:hover {
+    background-color: red;
+    border-bottom-left-radius: 1px;
+}
